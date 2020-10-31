@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1  Student Details
+  form(action='users/process' method='POST')  
+    |R.No: 
+    input(type='text' name='rno')    
+    br
+    br
+    |Mark: 
+    input(type='number' name='mark')
+    br
+    br
+    input(type='submit' value='Submit')
+
+  
+
